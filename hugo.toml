@@ -1,4 +1,6 @@
 baseURL = 'https://exercises.directory'
 languageCode = 'en-us'
 title = 'Exercises.directory'
-theme = 'ananke'
+# theme = 'ananke'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
