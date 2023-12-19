@@ -1,0 +1,13 @@
+{{ $lang := .Get "title" }}
+
+<strong>نمودار رسم شده با 
+{{ $lang }}
+:</strong>
+
+<object class="plot" type="image/svg+xml" data="{{ .Get "data"}}"></object>
+
+<style>
+.plot {
+direction: center;
+}
+</style>

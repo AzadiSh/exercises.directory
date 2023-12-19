@@ -1,0 +1,29 @@
+main:
+    - identifier: About
+      name: تابع نمایی
+      url: /ExponentialFunctions
+      weight: 1
+    - identifier: Projects
+      name: توابع چند جمله‌ای
+      url: /PolynomialFunctions
+      weight: 2
+    - identifier: Resume
+      name: precalculus
+      url: /precalculus
+      weight: 3
+    - identifier: Blog
+      name: Absolute_Value_Func
+      url: /AbsoluteValueFunctions
+      weight: 4
+    - identifier: Comments
+      name: Comments
+      url: comment/comments
+      weight: 5
+    - identifier: Links
+      name: لینک‌دونی
+      url: linkdooni
+      weight: 6
+    - identifier: Search
+      name: جستجو در وبلاگ
+      url: search
+      weight: 7

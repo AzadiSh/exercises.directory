@@ -1,2 +1,6 @@
+github.com/spf13/hyde v1.1.0 h1:ZKOakmybNrsaUQCZsf/XwwGIp6NHjUuU3klBgVuoees=
+github.com/spf13/hyde v1.1.0/go.mod h1:CSmLWCbXXInaA5zAkwAQ0EbwpR7Pe74eSmDxdGspoCY=
 github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20230919154732-c086834f0ebf h1:BY+sUxbApZGGlUbDKGBUAENu/9FBGdv4SdqrkzSSH2Y=
 github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20230919154732-c086834f0ebf/go.mod h1:yY14BLqqh5G61rO81YcJKMHY1rClY5iIiUK+K2JKSUM=
+github.com/twbs/icons v1.11.1 h1:lMKkMwupTDfBJWXx6RFLwfYuCmqG/uUAu2LaOf7bZjU=
+github.com/twbs/icons v1.11.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

@@ -1,0 +1,34 @@
+baseURL: https://exercises.directory
+languageCode: fa-IR 
+title: Exercises.Directory
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableEmoji: true # allowing using emoji
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+paginate: 15 # articles per page
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+permalinks:
+    post: "/:title/"
+    # post: "/:year/:month/:day/:title/"
+
+defaultContentLanguage: fa # prefer language
+defaultContentLanguageInSubdir: false
+languageDirection: rtl
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+

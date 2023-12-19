@@ -1,0 +1,47 @@
+{{- $num := (.Get "num") }}
+{{- $title := "### مسئلهٔ"  | markdownify}}
+{{- $inner := trim .Inner "\r\n" | markdownify}}
+
+<div class="ex">
+  <div class="ex_title">
+{{ (print "### مسئلهٔ  " $num) | markdownify }}
+  </div>
+  <div class="content">
+    {{- $inner }}
+  </div>
+</div>
+
+
+<style>
+.ex {
+border: 1px solid #008080; 
+margin-top: 1em;
+margin-bottom: 0em;
+padding-top: 0em;
+border-radius: .5em;
+}
+
+.ex_title {
+background-color: #008080;
+color: #fff;
+padding-right: .3em;
+padding-left: .5em;
+padding-top: .1em;
+border-top-left-radius: .5em;
+border-top-right-radius: .5em;
+}
+
+.post-content katex {
+font-size: 18px;
+}
+
+
+.post-content h3 {
+margin-top: 0px;
+}
+
+.content {
+padding-right: .5em;
+padding-left: .5em:
+}
+</style>

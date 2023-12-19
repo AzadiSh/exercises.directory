@@ -1,0 +1,57 @@
+imageUrl: "drawn.png"
+imageTitle: logo
+imageWidth: 150
+imageHeight: 150
+defaultTheme: light # defaultTheme: light or dark
+disableThemeToggle: false
+DateFormat: "2006-01-02"
+ShowShareButtons: true
+ShowReadingTime: true
+# disableSpecialistPost: true
+disableScrollToTop: false
+displayFullLangName: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+hideFooter: false # hide foot
+ShowWordCounts: true
+VisitCount: true
+
+ShowLastMod: true
+
+ShowToc: true
+TocOpen: true
+
+comments: true
+
+socialIcons:
+     - name: github
+       url: "https://github.com/kyxie"
+     - name: telegram
+       url: "https://www.linkedin.com/in/kunyang-kyrie-xie-557270194/"
+     - name: email
+       url: "mailto:kyriexie@outlook.com"
+
+assets:
+    favicon: "k-48.png"
+    favicon16x16: "k-48.png"
+    favicon32x32: "k-48.png"
+    apple_touch_icon: "k-48.png"
+    safari_pinned_tab: "k-48.png"
+
+label:
+    text: "صفحهٔ اول"
+
+fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 1
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary"]
+
+twikoo:
+    version: 1.4.11
+
+
